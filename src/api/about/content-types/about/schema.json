@@ -12,12 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "blocks": {
-      "type": "dynamiczone",
-      "components": ["shared.media", "shared.quote", "shared.rich-text", "shared.slider"]
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "industry-club.header"
     }
   }
 }

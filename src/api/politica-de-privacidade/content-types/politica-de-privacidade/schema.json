@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "politica_de_privacidades",
+  "info": {
+    "singularName": "politica-de-privacidade",
+    "pluralName": "politica-de-privacidades",
+    "displayName": "Política de Privacidade",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "industry-club.header"
+    },
+    "subtitle": {
+      "type": "string",
+      "maxLength": 500
+    },
+    "privacy": {
+      "type": "component",
+      "repeatable": true,
+      "component": "industry-club.policity-content"
+    }
+  }
+}

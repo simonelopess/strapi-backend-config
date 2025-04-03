@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_industry_club_headers",
+  "info": {
+    "displayName": "Banner",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Título "
+    },
+    "tag": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "backgroundUrl": {
+      "type": "string",
+      "maxLength": 300
+    }
+  }
+}

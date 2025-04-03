@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_industry_club_policity_contents",
+  "info": {
+    "displayName": "policity-content",
+    "icon": "envelop"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 500
+    }
+  }
+}
